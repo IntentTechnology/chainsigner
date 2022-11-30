@@ -5,10 +5,12 @@ import Banner from '../components/banner'
 
 const Home = () => {
   return (
-    <Stack>
-      <Header />
-      <Banner />
-    </Stack>
+    <>
+      <Stack>
+        <Header />
+        <Banner />
+      </Stack>
+    </>
   )
 }
 
