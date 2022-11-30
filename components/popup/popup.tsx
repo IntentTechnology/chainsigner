@@ -47,18 +47,18 @@ const Popup = () => {
               <Flex
                 boxShadow={'lg'}
                 w="100%"
-                p="10px"
+                p={`10px`}
                 borderRadius="2px"
                 mr="1rem"
               >
-                Metamask wallet
+                <chakra.p> Metamask wallet</chakra.p>
               </Flex>
             </VStack>
           </Flex>
 
           <Flex
             bg="graytext"
-            h="100%"
+            h={`100%`}
             w="100%"
             borderTopRightRadius={'19px'}
             borderBottomRightRadius={'19px'}
