@@ -44,7 +44,6 @@ const Popup = () => {
                 Available wallets
               </chakra.p>
               <Divider borderColor={'black'} w="100%" />
-
               <chakra.p
                 boxShadow="lg"
                 w="100%"
