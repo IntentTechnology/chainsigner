@@ -34,10 +34,10 @@ const Popup = () => {
         >
           <Flex
             h="100%"
-            bg={'white'}
+            bg="white"
             w="100%"
-            borderTopLeftRadius={'19px'}
-            borderBottomLeftRadius={'19px'}
+            borderTopLeftRadius="19px"
+            borderBottomLeftRadius="19px"
           >
             <VStack w="full" textAlign="left" spacing="3">
               <chakra.p mt="0.5rem" mr={{ base: '2rem', md: '4.5rem' }}>
@@ -46,13 +46,12 @@ const Popup = () => {
               <Divider borderColor={'black'} w="100%" />
 
               <chakra.p
-                boxShadow={'lg'}
+                boxShadow="lg"
                 w="100%"
                 p="10px"
                 borderRadius="2px"
                 mr="1rem"
               >
-                {' '}
                 Metamask wallet
               </chakra.p>
             </VStack>
