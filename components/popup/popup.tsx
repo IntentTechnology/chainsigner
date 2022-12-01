@@ -47,7 +47,7 @@ const Popup = () => {
               <Flex
                 boxShadow={'lg'}
                 w="100%"
-                p={'10px'}
+                p="10px"
                 borderRadius="2px"
                 mr="1rem"
               >
@@ -58,7 +58,7 @@ const Popup = () => {
 
           <Flex
             bg="graytext"
-            h={'100%'}
+            h="100%"
             w="100%"
             borderTopRightRadius={'19px'}
             borderBottomRightRadius={'19px'}
