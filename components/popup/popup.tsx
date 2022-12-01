@@ -44,51 +44,53 @@ const Popup = () => {
                 Available wallets
               </chakra.p>
               <Divider borderColor={'black'} w="100%" />
-              <Flex
+
+              <chakra.p
                 boxShadow={'lg'}
                 w="100%"
                 p="10px"
                 borderRadius="2px"
                 mr="1rem"
               >
-                <chakra.p> Metamask wallet</chakra.p>
-              </Flex>
+                {' '}
+                Metamask wallet
+              </chakra.p>
             </VStack>
           </Flex>
 
-          <Flex
+          <VStack
+            color="#fff"
+            fontSize={{ base: '12px', md: '15px' }}
             bg="graytext"
-            h="100%"
+            h={'100%'}
             w="100%"
             borderTopRightRadius={'19px'}
             borderBottomRightRadius={'19px'}
           >
-            <VStack color="#fff" fontSize={{ base: '12px', md: '15px' }}>
-              <chakra.p
-                mt={'10px'}
-                mr={{ base: '5rem', md: '13rem' }}
-                fontSize={{ base: '15px', md: '20px' }}
-              >
-                ChainSignr
+            <chakra.p
+              mt={'10px'}
+              mr={{ base: '5rem', md: '13rem' }}
+              fontSize={{ base: '15px', md: '20px' }}
+            >
+              ChainSignr
+            </chakra.p>
+            <Stack
+              pt={{ base: '4rem', md: '6rem' }}
+              pl={{ base: '1rem', md: '2rem' }}
+            >
+              <chakra.h2 fontSize={{ base: '20px', md: '20px' }}>
+                Get Started
+              </chakra.h2>
+              <chakra.p>Connect your wallet</chakra.p>
+              <chakra.p>
+                Connecting your wallet is like "logging in" to web3.
               </chakra.p>
-              <Stack
-                pt={{ base: '4rem', md: '6rem' }}
-                pl={{ base: '1rem', md: '2rem' }}
-              >
-                <chakra.h2 fontSize={{ base: '20px', md: '20px' }}>
-                  Get Started
-                </chakra.h2>
-                <chakra.p>Connect your wallet</chakra.p>
-                <chakra.p>
-                  Connecting your wallet is like "logging in" to web3.
-                </chakra.p>
-                <chakra.p>
-                  Select your wallet from the option to get started.
-                </chakra.p>
-              </Stack>
-            </VStack>
-            <ModalCloseButton />
-          </Flex>
+              <chakra.p>
+                Select your wallet from the option to get started.
+              </chakra.p>
+            </Stack>
+          </VStack>
+          <ModalCloseButton />
         </ModalContent>
       </Modal>
     </>
